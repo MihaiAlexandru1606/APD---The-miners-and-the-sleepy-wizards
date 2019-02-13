@@ -1,0 +1,8 @@
+build:
+	javac -d ./binGenerator ./generator/*.java
+
+run:
+	java -cp ./binGenerator Main ${ARGS}
+
+clean:
+	rm -fr ./binGenerator
